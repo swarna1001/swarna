@@ -1,20 +1,4 @@
-<!doctype html>
-<html lang="en">
-{% load static %}
-
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-
-    <title>Home</title>
-
-
-    <style>
-        body {background-color: #010820;}
-
-        /* side navigation bar styling */
+/* side navigation bar styling */
 
 * {
     margin: 0;
@@ -92,29 +76,3 @@ label #cancel{
 #check:checked ~ label #cancel {
     left: 155px;
     }
-
-
-    </style>
-
-
-</head>
-<body>
-
-<input type="checkbox" id="check">
-<label for="check">
-    <i class="fas fa-bars" id="btn"></i>
-    <i class="fas fa-times" id="cancel"></i>
-
-</label>
-<div class="sidebar">
-    <ul>
-        <li><a href=""><i class="fas fa-home"></i> Home </a></li>
-        <li><a href="project"> <i class="fas fa-sliders-h"></i> Projects</a></li>
-        <li><a href="writings"><i class="fas fa-newspaper"></i> Writings</a></li>
-        <li><a href="about"> <i class="far fa-question-circle"></i> About Me</a></li>
-    </ul>
-
-</div>
-
-</body>
-</html>
